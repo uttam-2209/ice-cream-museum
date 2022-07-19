@@ -51,7 +51,7 @@ h2{
 .navbar.scrolling{
     background: rgb(222, 192, 222);
     opacity: 0.97;
-    transition: background 600ms;
+    transition: background 350ms;
 }
 @media(max-width:1150px){
     #HeadGp h1{
