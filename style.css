@@ -2,34 +2,66 @@ body{
     background: #F5d9d5;
     font-family: 'Nunito', sans-serif;
 }
+
 #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
 }
+
 #mainNavbar .nav-link{
     color: white;
 }
+
 #mainNavbar .nav-link:hover {
     color: #ea1c2c;
 }
+
 #mainNavbar .navbar-brand{
     color: #ea1c2c;
     font-size: 1.5rem;
     font-weight: 100;
 }
+
 .container-fluid{
     overflow: hidden;
 }
+
 #HeadGp span{
     color: #ea1c2c;
 }
+
 #HeadGp h1{
     font-weight: 100;
     font-size: 3rem;
 }
+
+h2{
+    color: #ea1c2c;
+    font-weight: 100;
+}
+.lead{
+    color: #f87fa9;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.7;
+}
+.content{
+    margin-top: 50px;
+}
+.navbar.scrolling{
+    background: rgb(222, 192, 222);
+    opacity: 0.97;
+    transition: background 600ms;
+}
 @media(max-width:1150px){
     #HeadGp h1{
         font-weight: 100;
-        font-size: 2.0rem;
+        font-size: 1.9rem;
+    }
+    #para1 h2,h1{
+        font-size: 1.6rem;
+    }
+    #para1 .lead{
+        font-size: 1rem;
     }
 }
