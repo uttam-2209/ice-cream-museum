@@ -1,6 +1,10 @@
+:root {
+    --main-color: rgb(247, 6, 6);
+}
+
 body{
-    background: #F5d9d5;
-    font-family: 'Nunito', sans-serif;
+    background: #FFCAD4;
+    font-family: 'Dosis', sans-serif;
 }
 
 #mainNavbar {
@@ -13,11 +17,11 @@ body{
 }
 
 #mainNavbar .nav-link:hover {
-    color: #ea1c2c;
+    color: var(--main-color);
 }
 
 #mainNavbar .navbar-brand{
-    color: #ea1c2c;
+    color: var(--main-color);
     font-size: 1.5rem;
     font-weight: 100;
 }
@@ -27,7 +31,7 @@ body{
 }
 
 #HeadGp span{
-    color: #ea1c2c;
+    color: var(--main-color);
 }
 
 #HeadGp h1{
@@ -36,11 +40,11 @@ body{
 }
 
 h2{
-    color: #ea1c2c;
+    color: var(--main-color);
     font-weight: 100;
 }
 .lead{
-    color: #f87fa9;
+    color: rgb(249, 41, 41);
     font-weight: 100;
     font-size: 1.125rem;
     line-height: 1.7;
@@ -49,9 +53,9 @@ h2{
     margin-top: 50px;
 }
 .navbar.scrolling{
-    background: rgb(222, 192, 222);
-    opacity: 0.97;
-    transition: background 350ms;
+    background: rgb(239, 180, 239);
+    opacity: 0.9;
+    transition: background 300ms;
 }
 @media(max-width:1150px){
     #HeadGp h1{
